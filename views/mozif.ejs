@@ -25,9 +25,12 @@
           </div>
         <div class="row">
           <div class="col">
-              <% for(let i=0;i<errors.length;i++){ %>
-                <h1><%=errors[i]%></h1>
-              <% } %>
+              <div class="alert alert-primary" role="alert">
+
+                <% for(let i=0;i<errors.length;i++){ %>
+                  <p><%=errors[i]%></p>
+                <% } %>
+              </div>
           </div>
         </div>
       </div>
