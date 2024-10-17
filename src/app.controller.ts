@@ -29,6 +29,7 @@ export class AppController {
   @Post("mozifog")
   moziff(@Body() data:mozi,@Res() res:Response){
       let now:Date = new Date();
+      
       let not:Date=data.datum
       console.log(data.datum)
       console.log(now)
