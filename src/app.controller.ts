@@ -42,7 +42,7 @@ export class AppController {
       if(!/\b\w+@\w+\.\w+\b/.test(data.email)){
         errors.push("nem jó email formátum")
       }
-      if( not<now){
+      if( not<now ){
         errors.push("nem lehet réggebi mint a mostani idő")
       }
       if(errors.length>0){
