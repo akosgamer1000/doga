@@ -31,8 +31,7 @@ export class AppController {
       let now:Date = new Date();
       
       let not:Date=data.datum
-      console.log(data.datum)
-      console.log(now)
+  
       let errors:string[]= [];
       if(!data.datum || !data.email || !data.név || !data.nézök){
         errors.push("mindent meg kell adini")
